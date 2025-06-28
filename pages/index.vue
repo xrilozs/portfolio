@@ -337,14 +337,14 @@
     </section>
 
     <!-- Footer -->
-    <footer class="bg-gray-900 text-white py-12">
+    <footer class="bg-gray-900 text-white pt-12 pb-6">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h3 class="text-2xl font-bold mb-4">{{ profile.name }}</h3>
         <p class="text-gray-400 mb-6">{{ profile.title.join(' • ') }}</p>
         <div class="flex justify-center space-x-6 mb-6">
             <a v-for="contact in contacts" :key="contact.text" :href="contact.value" class="text-gray-400 hover:text-white transition-colors flex items-center">
                 <font-awesome-icon :icon="contact.icon" class="mr-2" />
-                {{ contact.text }}
+                {{ contact.label }}
             </a>
         </div>
         <div class="flex justify-center space-x-6 mb-6">
@@ -355,8 +355,8 @@
             </a>
         </div>
         <div class="border-t border-gray-800 pt-6">
-            <p class="text-gray-400">
-                &copy; {{ new Date().getFullYear() }} {{ profile.name }}. All rights reserved.
+            <p class="text-gray-400 pb-0">
+                &copy; {{ new Date().getFullYear() }} {{ profile.name }}.<br>All rights reserved.
             </p>
         </div>
       </div>
