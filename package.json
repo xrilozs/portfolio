@@ -1,7 +1,11 @@
 {
-  "name": "nuxt-app",
+  "name": "fajar-portfolio",
   "private": true,
   "type": "module",
+  "author": "Fajar",
+  "license": "MIT",
+  "version": "1.0.0",
+  "description": "Fajar's Portfolio",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
@@ -10,6 +14,12 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.7.2",
+    "@fortawesome/free-brands-svg-icons": "^6.7.2",
+    "@fortawesome/free-solid-svg-icons": "^6.7.2",
+    "@fortawesome/vue-fontawesome": "^3.0.8",
+    "@iconify/vue": "^5.0.0",
+    "@nuxtjs/tailwindcss": "^7.0.0-beta.0",
     "nuxt": "^3.17.5",
     "vue": "^3.5.17",
     "vue-router": "^4.5.1"
