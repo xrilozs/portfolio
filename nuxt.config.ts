@@ -9,6 +9,10 @@ export default defineNuxtConfig({
       title: 'Fajar Ramadhan Hidayah | Full Stack Web Developer',
       meta: [
         { name: 'description', content: 'Fajar Ramadhan Hidayah | Full Stack Web Developer' },
+        { property: 'og:title', content: 'Fajar Ramadhan Hidayah | Full Stack Web Developer' },
+        { property: 'og:description', content: 'Fajar Ramadhan Hidayah | Full Stack Web Developer' },
+        { property: 'og:url', content: 'https://xrilozs.vercel.app/' }
+      
       ],
     },
   },
